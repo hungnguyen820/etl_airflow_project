@@ -73,7 +73,7 @@ In another terminal:
 airflow scheduler
 
 7. Place the DAG file:
-Make sure etl_toll_data.py is inside the dags/ folder or the folder specified in your AIRFLOW_HOME.
+Make sure etl_toll_data.ipynb is inside the dags/ folder or the folder specified in your AIRFLOW_HOME.
 
 8. Access the Airflow UI:
 Open http://localhost:8080 in your browser, activate the DAG named ETL_toll_data, and trigger it manually.
@@ -82,7 +82,7 @@ Open http://localhost:8080 in your browser, activate the DAG named ETL_toll_data
 # 📁 Folder Structure
 etl-airflow-project/    
 ├── dags/    
-│   └── etl_toll_data.py           # Main DAG definition 	
+│   └── etl_toll_data.ipynb           # Main DAG definition 	
 
 ├── requirements.txt               # Python dependencies	 
 
